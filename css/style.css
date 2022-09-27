@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.top{
+	display:flex;
+	padding: 12px;
+	justify-content: end;
+}
+
+.top span{
+	padding: 12px;
+	cursor: pointer;
+}
+.top span:hover{
+	text-decoration: underline;
+}
+.app {
+    	width: 19px;
+    	margin-top: 12px;
+   	padding-right: 10px;
+    	margin-left: 10px;
+}
+.appHov{
+	
+}
+.appHov:hover{
+	border-radius: 14px;
+    	background-color: #dad9d9;
+}
+.sigbt {
+	padding: 8px;
+	cursor: pointer;
+	align-items: center;
+	border-color: #1a73e8;
+	border-radius: 3px;
+	background-color: #1a73e8;
+	margin-right: 15px;
+	color: white;
+	margin-top: 7px;
+    	width: 86px;
+}
+.sigbt:hover{
+	background-color: #1566d1;
+}
+.googleTitle{
+	display: flex;
+    	justify-content: center;
+	margin-top: 24px;
+}
+.google{
+	width:378px;
+}
+.headerMiddle {
+	display: flex;
+	flex: 0.4;
+	align-items: center;
+	background-color: whitesmoke;
+	padding: 3px;
+	border-radius: 20px;
+	cursor:pointer;
+}
+.headerMiddle input {
+	border: none;
+	width: 100%;
+	padding: 10px;
+	outline: none;
+	font-size: medium;
+	background-color: transparent;
+	cursor:pointer;
+}
+.headerMiddle:hover{
+	box-shadow: 0px 2px 5px -2px;
+	cursor:pointer;
+}
+.Icons {
+	width: 25px;
+}
+.mic{
+	width: 14px;
+   	margin-right: 14px;
+	cursor: pointer;
+}
+
+
+.buttons{
+	display: flex;
+    	justify-content: center;
+}
+
+.button1:hover{
+	border: 1px solid #dadce0;
+}
+.button1{
+	padding: 8px;
+	cursor: pointer;
+	align-items: center;
+	border-color: transparent;
+	border-radius: 3px;
+	background-color: ;
+	margin-right: 15px;
+	color: black;
+	margin-top: 7px;
+    	width: 120px;
+}
+.offered{
+	display:flex;
+	justify-content:center;
+	margin-top:10px;
+	cursor: pointer;
+}
+.languages{
+	display:flex;
+	font-size: small;
+}
+.languages span{
+	margin-left: 6px;
+	cursor: pointer;
+}
+.footerBox1{
+	margin-top: 226px;
+	display:flex;
+	background-color:rgb(241, 243, 243);
+	color: #70757a;
+	border-bottom: 1px solid #dadce0;
+	padding: 10px;
+}
+.footerBox1 span{
+	padding-left:10px;
+	font-size: 15px;
+	cursor: pointer;
+}
+.footerBox2{
+	display:flex;
+	justify-content: center;
+	background-color:rgb(241, 243, 243);
+	color: #70757a;
+	border-bottom: 1px solid #dadce0;
+	padding: 10px;
+}
+.footerBox2 span{
+	padding-left:10px; 
+	font-size: 15px;
+	cursor: pointer;
+}
+.footerBox22{
+	margin-left: 746px;
+}
+.footerBox21{
+	display:flex;
+	margin-right: 58px;
+}
+.footerBox21 span:hover{
+	text-decoration: underline;
+}
